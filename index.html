@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Benjamín Rivas | Portafolio</title>
+  <meta name="description" content="Portafolio de Benjamín Rivas: estudiante, diseñador en Figma y desarrollador web. Conoce mi educación y mis proyectos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#educacion">Educación</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <header id="inicio" class="hero cortina">
+    <div class="domo"></div>
+    <span class="estrella">✦</span>
+    <p class="etiqueta">Portafolio</p>
+    <h1>Benjamín<br>Rivas</h1>
+    <div class="puntos"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <a class="boton" href="#proyectos">Ver proyectos</a>
+  </header>
+
+  <section id="sobre-mi" class="sobre">
+    <figure class="arco">
+      <img src="imagenes/foto.png" alt="Retrato de Benjamín Rivas">
+      <span class="estrella">✦</span>
+    </figure>
+    <div class="caja-sobre">
+      <h2 class="titulo"><span class="inicial">S</span>obre mí</h2>
+      <p>Me llamo Benjamín Alessandro Rivas López. Soy un estudiante de 17 años al que le gusta ver anime, practicar volleyball, jugar videojuegos y, de vez en cuando, ajedrez. Me considero una persona analítica, pues me gusta pensar en todas las posibilidades antes de tomar una decisión. Tengo muchos sueños y aspiraciones, por eso me esfuerzo por hacerlos realidad. Me gusta pensar que cada día es una oportunidad para mejorar y que la vida siempre puede sorprendernos. También disfruto de la música tranquila, especialmente aquella con letras con las que puedo conectar, y de cómo algo tan simple puede convertirse en un recuerdo importante.</p>
+      <p>En la universidad me gustaría estudiar Ingeniería en sistemas, ya que me llama la atención todo lo relacionado a la tecnología. Mi mayor sueño es viajar a los lugares más hermosos del mundo.</p>
+      <div class="etiquetas"><span>Diseño en Figma</span><span>Desarrollo web</span><span>Escritura creativa</span></div>
+    </div>
+  </section>
+
+  <section id="educacion" class="educacion">
+    <div class="contenedor">
+      <h2 class="titulo"><span class="inicial">E</span>ducación</h2>
+      <ul class="linea">
+        <li><h3>2014 - 2024</h3><strong>Primer grado a noveno grado</strong><p>Colegio Santa Tecla - Centro Escolar Nuevo Lourdes</p><p>Urbanización Nuevo Lourdes</p></li>
+        <li><h3>2024 - 2026</h3><strong>Primer año de bachillerato a segundo año de bachillerato</strong><p>Centro Escolar Católico Alberto Masferrer</p><p>Santa Tecla</p></li>
+        <li><h3>2024 - 2026</h3><strong>Noveno grado a segundo año de bachillerato</strong><p>Centro ¡Supérate! Fundación Poma</p><p>Santa Tecla</p></li>
+      </ul>
+      <div class="dos-col">
+        <div class="lista-bloque grande">
+          <h3 class="subtitulo">Habilidades profesionales</h3>
+          <ul class="lista"><li>Liderazgo</li><li>Comunicación efectiva</li><li>Resolución de problemas</li></ul>
+        </div>
+        <div class="lista-bloque">
+          <h3 class="subtitulo">Idiomas</h3>
+          <ul class="lista"><li>Español (nativo)</li><li>Inglés (avanzado)</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="proyectos cortina">
+    <div class="contenedor">
+      <h2 class="titulo"><span class="inicial">P</span>royectos</h2>
+      <p class="intro">Toca una caja para ver de qué trató cada proyecto y qué hice yo.</p>
+
+      <div class="tarjetas">
+        <button class="proyecto" data-id="1" aria-pressed="true">
+          <img src="imagenes/contextos.png" alt="Ilustración del libro ConTextos">
+          <span class="cuerpo"><small>Proyecto 1</small><b>ConTextos</b><span>Un libro escrito y pintado por mí.</span></span>
+        </button>
+        <button class="proyecto" data-id="2" aria-pressed="false">
+          <img src="imagenes/pets-health.png" alt="Logo de Pet's Health">
+          <span class="cuerpo"><small>Proyecto 2</small><b>Hackaton</b><span>Pet's Health, app para el registro médico de mascotas.</span></span>
+        </button>
+        <button class="proyecto" data-id="3" aria-pressed="false">
+          <img src="imagenes/munch-spot.png" alt="Logo de Munch Spot">
+          <span class="cuerpo"><small>Proyecto 3</small><b>Munch Spot</b><span>App de comida típica para turistas.</span></span>
+        </button>
+        <button class="proyecto" data-id="4" aria-pressed="false">
+          <img src="imagenes/pot-c.png" alt="Logo de POT-C">
+          <span class="cuerpo"><small>Proyecto 4</small><b>POT-C</b><span>Basurero que hace composta.</span></span>
+        </button>
+      </div>
+
+      <div class="panel" aria-live="polite">
+        <article class="detalle" id="detalle-1">
+          <div class="texto">
+            <h3>ConTextos</h3>
+            <p>ConTextos es una organización y centro educativo que impulsa la lectura, el arte, la escritura creativa y el diálogo. Con ellos participé en el programa “Soy autor, soy autora: Un viaje sincero al origen”.</p>
+            <p>Escribí un libro dedicado a un ser querido, usando metáforas y símiles, y un poema sobre mí. Pinté yo mismo las ilustraciones de cada página. El programa cerró con una exposición de todos los libros.</p>
+            <p>Fue una experiencia que me permitió expresarme a través de la palabra y del dibujo al mismo tiempo, y mirar mi propia historia desde otra perspectiva. Ver el libro terminado y expuesto junto a los de otros participantes fue muy especial.</p>
+            <p class="rol">Mi rol: autor, poeta e ilustrador.</p>
+          </div>
+          <figure><img src="imagenes/contextos-2.png" alt="Página del libro ConTextos"></figure>
+        </article>
+        <article class="detalle" id="detalle-2" hidden>
+          <div class="texto">
+            <h3>Hackaton</h3>
+            <p>Hackaton es el proceso por el cual pasan los estudiantes del primer año del programa ¡Supérate!, en el cual deberán identificar una problemática que afecte a un pedazo de la población, desarrollando una solución práctica que solvente el problema planteado.</p>
+            <p>En este proyecto, mi equipo y yo desarrollamos Pet's Health, una aplicación en donde puedes llevar el registro de las citas, horario de medicinas e historial de vacunas de tu mascota, para resolver el problema de la organización del registro médico de nuestras mascotas.</p>
+            <p>Trabajar en equipo nos permitió repartir tareas, compartir ideas y construir una propuesta pensada para una necesidad real: que los dueños de mascotas tengan toda la información de salud de sus animales en un solo lugar.</p>
+          </div>
+          <figure><img src="imagenes/pets-health-2.png" alt="Pantalla de la app Pet's Health"></figure>
+        </article>
+        <article class="detalle" id="detalle-3" hidden>
+          <div class="texto">
+            <h3>Munch Spot</h3>
+            <p>Proyecto de la Expo de Logros de ¡Supérate!, pensado para turistas que buscan los mejores lugares para probar comida típica salvadoreña. Toma en cuenta higiene, calidad, ubicación y precios, e incluye ingredientes, direcciones y reseñas.</p>
+            <p>Creamos un mapa para ubicar los lugares y dividimos la app en secciones según el tipo de información.</p>
+            <p>La idea es que cualquier turista pueda decidir dónde comer de forma sencilla y confiable, con toda la información que necesita en un solo lugar, y que a la vez se dé a conocer la gastronomía del país.</p>
+            <p class="rol">Mi rol: diseñé y desarrollé las pantallas en Figma, y apoyé en la investigación.</p>
+          </div>
+          <figure><img src="imagenes/munch-spot-2.png" alt="Pantallas de la app Munch Spot"></figure>
+        </article>
+        <article class="detalle" id="detalle-4" hidden>
+          <div class="texto">
+            <h3>POT-C</h3>
+            <p>Proyecto de la Expo Tech de ¡Supérate!: un basurero de compostaje inteligente que descompone los residuos orgánicos, sube la temperatura y genera tierra rica en nutrientes.</p>
+            <p>Creamos tres piezas: un prototipo 3D del basurero, una aplicación para controlarlo y un sitio web con información del producto.</p>
+            <p>Cada pieza cumple una función: el prototipo muestra cómo funciona el basurero, la aplicación permite controlarlo y el sitio web explica el producto a quien quiera conocerlo, mostrando cómo los residuos pueden convertirse en algo útil.</p>
+            <p class="rol">Mi rol: desarrollé el sitio web y ayudé a organizar su interfaz.</p>
+          </div>
+          <figure><img src="imagenes/pot-c-2.png" alt="Prototipo del basurero POT-C"></figure>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto cortina">
+    <h2 class="titulo"><span class="inicial">C</span>ontacto</h2>
+    <p>¿Quieres conocer más de mis proyectos? Escríbeme.</p>
+    <a class="boton" href="mailto:benjamin.rivas2026@poma.superate.org">benjamin.rivas2026@poma.superate.org</a>
+    <div class="redes">
+      <a href="#">Facebook</a><a href="#">X</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div class="puntos"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <p>© 2026 por Benjamín Rivas.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
